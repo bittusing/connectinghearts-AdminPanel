@@ -1,0 +1,23 @@
+
+/* Set border radius for Row 1 Card and inherit background */
+#row1 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+/* Style for each column within Row 1 Card */
+.row.grid .column {
+  padding: 5px;
+  cursor: pointer;
+}
+.column {
+  flex: 1;
+}
+.row.grid {
+  color: black;
+  /* border: 2px solid #ccc; */
+}
+.item{
+  text-align: start !important;
+}
+
+  

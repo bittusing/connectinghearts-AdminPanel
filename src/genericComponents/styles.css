@@ -1,0 +1,39 @@
+.search-bar{
+    border-radius: 5px;
+    font-size: 0.8rem;
+}
+
+.ant-table-cell{
+    padding: 10px!important;
+}
+.table-container{
+    position: relative;
+    /* max-height: 500px; */
+    /* max-height: calc(100vh - 10rem); */
+}
+
+.downloadbtns{
+    position: absolute;
+    right: 0.1%;
+    bottom: 0.5rem;
+}
+
+.ant-table-content{
+    overflow-y: auto;
+    font-size: 0.8rem;
+}
+
+.select-filter{
+    width: 16rem;
+    border-radius: 5px;
+}
+
+.select-label{
+    font-family: "Poppins", sans-serif;
+    font-size: 0.8rem;
+    color: #5e5873;
+}
+
+.ant-select-selector{
+    border-radius: 5px!important;
+}

@@ -1,0 +1,11 @@
+.filters-btn{
+    margin-right: 7px;
+}
+
+.btn-layout{
+    margin-top: 24px;
+}
+
+.last-box {
+    margin-left: auto; /* Push the last box to the right end */
+  }
