@@ -319,6 +319,15 @@ const Dashboard = () => {
       }
     },
     {
+      title: "Created At",
+      dataIndex: "createdAt",
+      key: "createdAt",
+      sorter: { compare: (a, b) => defaultSort(a, b, "createdAt") },
+      render: (value) => {
+        return value ? dayjs(value).format("YYYY-MM-DD HH:mm:ss") : ""
+      }
+    },
+    {
       title: "Name",
       dataIndex: "name",
       key: "name",
